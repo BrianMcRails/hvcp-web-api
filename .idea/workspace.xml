@@ -39,16 +39,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_serializer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/serializers/api_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="demographics_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/demographics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dicomimages_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dicomimages_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/dicomimages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="30" column="139" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="139" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -134,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/001_create_database.rb" />
         <option value="$PROJECT_DIR$/app/serializers/ApiSerializer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/dicomstudies_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/ImageHelper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/dicomimages_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -657,12 +657,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486068524990</updated>
-      <workItem from="1486068526147" duration="14569000" />
+      <workItem from="1486068526147" duration="15000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14569000" />
+    <option name="totallyTimeSpent" value="15000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="876" extended-state="6" />
@@ -704,14 +704,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1020,6 +1012,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="139" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>

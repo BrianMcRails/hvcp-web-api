@@ -16,8 +16,8 @@ development:
   host: hvcpwebapi.database.windows.net
   port: 1433
   database: hvcpwebapi
-  username: appapollo@hvcpwebapi
-  password: Lum3dx2016
+  username:
+  password: 
   azure: true
 
 # Warning: The database defined as "test" will be erased and
